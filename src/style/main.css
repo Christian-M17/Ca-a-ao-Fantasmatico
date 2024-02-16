@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+}
+.verde{color: yellowgreen}
+.branco{color: white}
+
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../image/fundo.webp");
+    background-size: cover;
+}
+
+.painel{
+    border-top: 5px solid greenyellow;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-lives{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.square{
+    height: 28vh;
+    border-radius: 100%;
+    width: 28vh;
+    border: 5px solid gray;
+    background-color: yellowgreen;
+
+}
+.square:hover{background-color: purple;}
+
+.enemy{
+    background-image: url("../image/Fantasmatico.webp");
+    background-size: cover;
+    cursor: pointer;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 90px;
+    background-color: black;
+}
